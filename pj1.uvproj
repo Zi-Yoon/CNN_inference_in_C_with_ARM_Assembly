@@ -491,6 +491,11 @@
               <FileType>2</FileType>
               <FilePath>.\relu_active.s</FilePath>
             </File>
+            <File>
+              <FileName>max_pooling.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\max_pooling.s</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

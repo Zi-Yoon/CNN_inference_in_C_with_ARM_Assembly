@@ -39,8 +39,6 @@ typedef		int	fixed32_t;
 // [-0.14 ,  0    , -0.075], 
 // [ 0.05 , -0.075,  0.125]]
 
-// Weight : float to fixed32_t
-
 void	uchar_to_fixed32_and_relocation(fixed32_t *after_relocation);
 void	zeropadd_and_grayscale(fixed32_t *after_relocation, fixed32_t *after_grayscale);
 void	convolution_3by3(fixed32_t *after_grayscale, fixed32_t *after_convolution);
@@ -53,7 +51,8 @@ extern fixed32_t		uchar_to_fixed32(unsigned char x);
 extern fixed32_t		make_gray(fixed32_t* reloc_addr);
 extern fixed32_t		conv_mul(fixed32_t* gray_addr, fixed32_t* weight_addr);
 extern fixed32_t*		relu_active(fixed32_t* after_conv);
-extern unsigned char	fixed32_to_uchar(fixed32_t x);
+extern unsigned char	max_pooling(fixed32_t* after_relu);
+// extern unsigned char	fixed32_to_uchar(fixed32_t x); = (ASR r0, r0, #16)
 
 /* == Usefull for Keil == */
 // load florence.hex
