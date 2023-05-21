@@ -49,10 +49,11 @@ void	max_pooling_and_store_data(fixed32_t *after_relu_activation, unsigned char 
 void	output_pixels(unsigned char *after_pooling, unsigned int x, unsigned int y);
 
 // Assembly
+extern fixed32_t		uchar_to_fixed32(unsigned char x);
 extern fixed32_t		make_gray(fixed32_t* reloc_addr);
 extern fixed32_t		conv_mul(fixed32_t* gray_addr, fixed32_t* weight_addr);
+extern fixed32_t*		relu_active(fixed32_t* after_conv);
 extern unsigned char	fixed32_to_uchar(fixed32_t x);
-extern fixed32_t		uchar_to_fixed32(unsigned char x);
 
 /* == Usefull for Keil == */
 // load florence.hex

@@ -21,15 +21,13 @@ void	zeropadd_and_grayscale(fixed32_t *after_relocation, fixed32_t *after_graysc
 		for (int y = 0; y < 1920 + ZERO_PADDING*2; y++)
 		{
 			if (x == 0 || y == 0 || x == (1079 + ZERO_PADDING*2) || y == (1919 + ZERO_PADDING*2))
-			{
 				*after_gray = 0;
-				after_gray++;
-			}
 			else
 			{
 				*after_gray = make_gray(after_reloc);
-				after_gray++;
+				after_reloc = after_reloc + 3;
 			}
+			after_gray++;
 		}
 		// One cycle = 1922 * 4
 		// 1922 + 126 = 2048

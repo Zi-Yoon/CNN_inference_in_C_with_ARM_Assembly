@@ -452,16 +452,6 @@
               <FilePath>.\func4_5.c</FilePath>
             </File>
             <File>
-              <FileName>serial.o</FileName>
-              <FileType>3</FileType>
-              <FilePath>.\serial.o</FilePath>
-            </File>
-            <File>
-              <FileName>startup.o</FileName>
-              <FileType>3</FileType>
-              <FilePath>.\startup.o</FilePath>
-            </File>
-            <File>
               <FileName>func6.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\func6.c</FilePath>
@@ -485,6 +475,21 @@
               <FileName>make_gray.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\make_gray.s</FilePath>
+            </File>
+            <File>
+              <FileName>serial.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\Object\serial.o</FilePath>
+            </File>
+            <File>
+              <FileName>startup.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\Object\startup.o</FilePath>
+            </File>
+            <File>
+              <FileName>relu_active.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\relu_active.s</FilePath>
             </File>
           </Files>
         </Group>

@@ -8,22 +8,20 @@ make_gray
 	PUSH	{r2-r11}
 	LDM		r0, {r1, r2, r3} ; R G B
 
-	CMP		r1, r2	; max = r4
-	MOVGT	r4, r1
-	MOVLE	r4, r2
-	CMP		r4, r3
-	MOVGT	r4, r4
-	MOVLE	r4, r3
+	CMP		r1, r2	; if r1 > r2 ?
+	MOVGT	r4, r1	; r4 = r1 (r1 > r2)
+	MOVLE	r4, r2	; r4 = r2 (r1 < r2)
+	CMP		r4, r3	; if r4 > r3 ?
+	MOVLE	r4, r3	; r4 = r3 (r4 < r4)
 
-	CMP		r1, r2	; min = r5
-	MOVLT	r5, r1
-	MOVGE	r5, r2
-	CMP		r5, r5
-	MOVLT	r5, r4
-	MOVGE	r5, r3
+	CMP		r1, r2	; if r1 < r2 ?
+	MOVLT	r5, r1	; r5 = r1 (r1 < r2)
+	MOVGE	r5, r2	; r5 = r2 (r1 > r2)
+	CMP		r5, r3	; if r5 < r3 ?
+	MOVGE	r5, r3	; 
 
-	ASR		r6, r4, #1	; r4 / 2
-	MUL		r0, r6, r5	; r0 = r5 * r6
+	ADD		r1, r4, r5	; r1 = r4 + r5
+	ASR		r0, r1, #1	; r1 / 2
 	POP		{r2-r11}
 	BX		LR
 	end
