@@ -132,18 +132,18 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>17</LineNumber>
+          <LineNumber>16</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>1764</Address>
+          <Address>0</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>.\cnn.c</Filename>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>.\Sources\cnn.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\pj1\cnn.c\17</Expression>
+          <Expression></Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -181,8 +181,8 @@
       <MemoryWindow1>
         <Mm>
           <WinNumber>1</WinNumber>
-          <SubType>1</SubType>
-          <ItemText>0x44784000</ItemText>
+          <SubType>0</SubType>
+          <ItemText>0x4516b800</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
@@ -232,7 +232,7 @@
   </Target>
 
   <Group>
-    <GroupName>Source Group 1</GroupName>
+    <GroupName>Sources</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -240,36 +240,36 @@
     <File>
       <GroupNumber>1</GroupNumber>
       <FileNumber>1</FileNumber>
-      <FileType>5</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\base.h</PathWithFileName>
-      <FilenameWithoutPath>base.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>1</GroupNumber>
-      <FileNumber>2</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\cnn.c</PathWithFileName>
+      <PathWithFileName>.\Sources\cnn.c</PathWithFileName>
       <FilenameWithoutPath>cnn.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>1</GroupNumber>
-      <FileNumber>3</FileNumber>
-      <FileType>5</FileType>
+      <FileNumber>2</FileNumber>
+      <FileType>2</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\cnn.h</PathWithFileName>
-      <FilenameWithoutPath>cnn.h</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\conv_mul.s</PathWithFileName>
+      <FilenameWithoutPath>conv_mul.s</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>3</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Sources\func1.c</PathWithFileName>
+      <FilenameWithoutPath>func1.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -280,8 +280,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\func1.c</PathWithFileName>
-      <FilenameWithoutPath>func1.c</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\func2_3.c</PathWithFileName>
+      <FilenameWithoutPath>func2_3.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -292,8 +292,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\func2_3.c</PathWithFileName>
-      <FilenameWithoutPath>func2_3.c</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\func4_5.c</PathWithFileName>
+      <FilenameWithoutPath>func4_5.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -304,20 +304,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\func4_5.c</PathWithFileName>
-      <FilenameWithoutPath>func4_5.c</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\func6.c</PathWithFileName>
+      <FilenameWithoutPath>func6.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>1</GroupNumber>
       <FileNumber>7</FileNumber>
-      <FileType>1</FileType>
+      <FileType>2</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\func6.c</PathWithFileName>
-      <FilenameWithoutPath>func6.c</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\make_gray.s</PathWithFileName>
+      <FilenameWithoutPath>make_gray.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -328,8 +328,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\fixed32_to_uchar.s</PathWithFileName>
-      <FilenameWithoutPath>fixed32_to_uchar.s</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\max_pooling.s</PathWithFileName>
+      <FilenameWithoutPath>max_pooling.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -340,8 +340,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\uchar_to_fixed32.s</PathWithFileName>
-      <FilenameWithoutPath>uchar_to_fixed32.s</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\relu_active.s</PathWithFileName>
+      <FilenameWithoutPath>relu_active.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -352,68 +352,72 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\conv_mul.s</PathWithFileName>
-      <FilenameWithoutPath>conv_mul.s</FilenameWithoutPath>
+      <PathWithFileName>.\Sources\uchar_to_fixed32.s</PathWithFileName>
+      <FilenameWithoutPath>uchar_to_fixed32.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+  </Group>
+
+  <Group>
+    <GroupName>Headers</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
     <File>
-      <GroupNumber>1</GroupNumber>
+      <GroupNumber>2</GroupNumber>
       <FileNumber>11</FileNumber>
-      <FileType>2</FileType>
+      <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\make_gray.s</PathWithFileName>
-      <FilenameWithoutPath>make_gray.s</FilenameWithoutPath>
+      <PathWithFileName>.\Headers\base.h</PathWithFileName>
+      <FilenameWithoutPath>base.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>1</GroupNumber>
+      <GroupNumber>2</GroupNumber>
       <FileNumber>12</FileNumber>
-      <FileType>3</FileType>
+      <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Object\serial.o</PathWithFileName>
-      <FilenameWithoutPath>serial.o</FilenameWithoutPath>
+      <PathWithFileName>.\Headers\cnn.h</PathWithFileName>
+      <FilenameWithoutPath>cnn.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+  </Group>
+
+  <Group>
+    <GroupName>Objects</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
     <File>
-      <GroupNumber>1</GroupNumber>
+      <GroupNumber>3</GroupNumber>
       <FileNumber>13</FileNumber>
       <FileType>3</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Object\startup.o</PathWithFileName>
-      <FilenameWithoutPath>startup.o</FilenameWithoutPath>
+      <PathWithFileName>.\Objects\serial.o</PathWithFileName>
+      <FilenameWithoutPath>serial.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>1</GroupNumber>
+      <GroupNumber>3</GroupNumber>
       <FileNumber>14</FileNumber>
-      <FileType>2</FileType>
+      <FileType>3</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\relu_active.s</PathWithFileName>
-      <FilenameWithoutPath>relu_active.s</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>1</GroupNumber>
-      <FileNumber>15</FileNumber>
-      <FileType>2</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\max_pooling.s</PathWithFileName>
-      <FilenameWithoutPath>max_pooling.s</FilenameWithoutPath>
+      <PathWithFileName>.\Objects\startup.o</PathWithFileName>
+      <FilenameWithoutPath>startup.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

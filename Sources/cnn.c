@@ -1,5 +1,4 @@
-#include "cnn.h"
-#include "base.h"
+#include "../Headers/cnn.h"
 
 int main()
 {

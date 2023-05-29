@@ -419,82 +419,87 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>Sources</GroupName>
           <Files>
-            <File>
-              <FileName>base.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\base.h</FilePath>
-            </File>
             <File>
               <FileName>cnn.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\cnn.c</FilePath>
-            </File>
-            <File>
-              <FileName>cnn.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\cnn.h</FilePath>
-            </File>
-            <File>
-              <FileName>func1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\func1.c</FilePath>
-            </File>
-            <File>
-              <FileName>func2_3.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\func2_3.c</FilePath>
-            </File>
-            <File>
-              <FileName>func4_5.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\func4_5.c</FilePath>
-            </File>
-            <File>
-              <FileName>func6.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\func6.c</FilePath>
-            </File>
-            <File>
-              <FileName>fixed32_to_uchar.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\fixed32_to_uchar.s</FilePath>
-            </File>
-            <File>
-              <FileName>uchar_to_fixed32.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\uchar_to_fixed32.s</FilePath>
+              <FilePath>.\Sources\cnn.c</FilePath>
             </File>
             <File>
               <FileName>conv_mul.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\conv_mul.s</FilePath>
+              <FilePath>.\Sources\conv_mul.s</FilePath>
+            </File>
+            <File>
+              <FileName>func1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\func1.c</FilePath>
+            </File>
+            <File>
+              <FileName>func2_3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\func2_3.c</FilePath>
+            </File>
+            <File>
+              <FileName>func4_5.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\func4_5.c</FilePath>
+            </File>
+            <File>
+              <FileName>func6.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\func6.c</FilePath>
             </File>
             <File>
               <FileName>make_gray.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\make_gray.s</FilePath>
-            </File>
-            <File>
-              <FileName>serial.o</FileName>
-              <FileType>3</FileType>
-              <FilePath>.\Object\serial.o</FilePath>
-            </File>
-            <File>
-              <FileName>startup.o</FileName>
-              <FileType>3</FileType>
-              <FilePath>.\Object\startup.o</FilePath>
-            </File>
-            <File>
-              <FileName>relu_active.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\relu_active.s</FilePath>
+              <FilePath>.\Sources\make_gray.s</FilePath>
             </File>
             <File>
               <FileName>max_pooling.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\max_pooling.s</FilePath>
+              <FilePath>.\Sources\max_pooling.s</FilePath>
+            </File>
+            <File>
+              <FileName>relu_active.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Sources\relu_active.s</FilePath>
+            </File>
+            <File>
+              <FileName>uchar_to_fixed32.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Sources\uchar_to_fixed32.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Headers</GroupName>
+          <Files>
+            <File>
+              <FileName>base.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Headers\base.h</FilePath>
+            </File>
+            <File>
+              <FileName>cnn.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Headers\cnn.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Objects</GroupName>
+          <Files>
+            <File>
+              <FileName>serial.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\Objects\serial.o</FilePath>
+            </File>
+            <File>
+              <FileName>startup.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\Objects\startup.o</FilePath>
             </File>
           </Files>
         </Group>

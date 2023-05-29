@@ -1,1 +1,1 @@
-.\objects\relu_active.o: relu_active.s
+.\objects\relu_active.o: Sources\relu_active.s

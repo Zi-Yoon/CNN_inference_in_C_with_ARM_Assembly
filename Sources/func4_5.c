@@ -1,18 +1,4 @@
-#include "cnn.h"
-
-/*
-unsigned char	max_pixel_to_8bit(fixed32_t a, fixed32_t b, fixed32_t c, fixed32_t d)
-{
-	if (a >= b && a >= c && a >= d)
-		return fixed32_to_uchar(a);
-	else if (b >= a && b >= c && b >= d)
-		return fixed32_to_uchar(b);
-	else if (c >= a && c >= b && c >= d)
-		return fixed32_to_uchar(c);
-	else
-		return fixed32_to_uchar(d);
-}
-*/
+#include "../Headers/cnn.h"
 
 // IN : [0x44000000 ~ 0x4486FFFF]
 // OUT: [0x44000000 ~ 0x4486FFFF] Save after ReLU
@@ -43,7 +29,6 @@ void	max_pooling_and_store_data(fixed32_t *after_relu_activation, unsigned char 
 		for (int y = 0; y < 960; y++)
 		{
 			temp =  max_pooling(after_relu);
-			temp = temp * 5; /* ==remove this code when submit== */
 			*after_pool = temp;
 			after_pool++;
 			*after_pool = temp;

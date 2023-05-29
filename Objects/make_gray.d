@@ -1,1 +1,1 @@
-.\objects\make_gray.o: make_gray.s
+.\objects\make_gray.o: Sources\make_gray.s

@@ -1,4 +1,4 @@
-#include "cnn.h"
+#include "../Headers/cnn.h"
 
 // Max pooling 값에서 [x,y] 픽셀을 UART에 출력하는 함수
 void	output_pixels(unsigned char *after_pooling, unsigned int x, unsigned int y)

@@ -1,4 +1,4 @@
-#include "cnn.h"
+#include "../Headers/cnn.h"
 
 fixed32_t	weight[][3] =	{{(int)( 0.125f*FIXED_POINT_SCALE_FACTOR), (int)(-0.14f*FIXED_POINT_SCALE_FACTOR) , (int)( 0.05f*FIXED_POINT_SCALE_FACTOR) }, 
 							{ (int)(-0.14f*FIXED_POINT_SCALE_FACTOR) , (int)( 0.f*FIXED_POINT_SCALE_FACTOR)   , (int)(-0.075f*FIXED_POINT_SCALE_FACTOR)}, 

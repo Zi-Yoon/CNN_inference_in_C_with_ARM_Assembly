@@ -1,1 +1,1 @@
-.\objects\max_pooling.o: max_pooling.s
+.\objects\max_pooling.o: Sources\max_pooling.s
