@@ -2,10 +2,8 @@
 	AREA Multiply, CODE, READONLY
 	EXPORT uchar_to_fixed32
 
-; FIXED_POINT_SCALE_FACTOR : 1 << 16 = 65536
+; FIXED_POINT_SCALE_FACTOR : 1 << 16
 uchar_to_fixed32
-	MOV	r1, #65536
-	MUL	r2, r0, r1
-	MOV	r0, r2
+	LSL	r0, r0, #16
 	BX	LR
 	END

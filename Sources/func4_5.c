@@ -29,6 +29,7 @@ void	max_pooling_and_store_data(fixed32_t *after_relu_activation, unsigned char 
 		for (int y = 0; y < 960; y++)
 		{
 			temp =  max_pooling(after_relu);
+			// temp = temp * 5; // for visualize, remove before submit
 			*after_pool = temp;
 			after_pool++;
 			*after_pool = temp;

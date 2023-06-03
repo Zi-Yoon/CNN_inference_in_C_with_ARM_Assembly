@@ -31,14 +31,12 @@ extern fixed32_t		conv_mul(fixed32_t* gray_addr, fixed32_t* weight_addr);
 extern fixed32_t*		relu_active(fixed32_t* after_conv);
 extern unsigned char	max_pooling(fixed32_t* after_relu);
 
-/***************(Usefull for Keil)***************
-* - Load and Save Data							*
-* load florence.hex								*
-* save after_pooling.hex 0x45000000, 0x4517BAFF	*
-* 												*
-* - Memory Mapping								*
-* 0xE0000000, 0xffffffff						*
-* 0x40000000, 0xffffffff						*
-*************************************************/
+/***************************(Usefull for Keil)****************************
+* load florence.hex														 *
+* save out.hex 0x45000000, 0x4517BAFF									 *
+* .\srec_cat.exe .\out.hex -intel -offset -0x45000000 -o mem.rgb -binary *
+* 0xE0000000, 0xE7ffffff												 *
+* 0x40000000, 0x47ffffff												 *
+**************************************************************************/
 
 #endif
