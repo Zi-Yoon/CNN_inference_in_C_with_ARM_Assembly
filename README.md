@@ -1,4 +1,4 @@
-# CNN_inference_in_C_with_ARM_Assembly
+# CNN inference in C with ARM Assembly
 ## Microprocessor application Class - Final Project
 ### AJY (Zi-Yoon)
 
